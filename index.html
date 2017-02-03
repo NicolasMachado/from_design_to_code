@@ -1,9 +1,61 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<link rel="stylesheet" type="text/css" href="http://meyerweb.com/eric/tools/css/reset/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<title>Greg's list</title>
+	<meta name="description" content="The place to find everything, and nothing at the same time." />
 </head>
+<header>
+	<nav>
+		<div class="navtitle">
+			Greg's List
+		</div>
+		<div class="navlinks">
+			<ul>
+				<li>
+					<a href="#">Post</a>
+				</li>
+				<li>
+					<a href="#">Account</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+</header>
 <body>
+	<main>
+		Search Jobs
+		<div>
+			<form class="searchbox">
+				<input type="text" name="search" placeholder="Developer, designer, internship...">
+				<input class="mglass" type="image" src="images/magnifying-glass.png" alt="Submit Form">
+			</form>
+		</div>
+		<div class="prevnext">
+			<span class="prev">< prev</span>
+			<span class="page">1 to 100 of 179</span>
+			<span class="next">next ></span>
+		</div>
 
+		<div class="job">
+			<span class="date">June 22</span>
+			<span class="jobtitle"><a href="#">Technical Project Manager</a></span>
+			<span class="location">Midtown East</span>
+		</div>
+
+		<div class="job">
+			<span class="date">June 21</span>
+			<span class="jobtitle"><a href="#">Frontend Developer</a></span>
+			<span class="location">SoHo</span>
+		</div>
+
+		<div class="job">
+			<span class="date">June 20</span>
+			<span class="jobtitle"><a href="#">Senior Python Developer / Cofounder</a></span>
+			<span class="location">Flatiron</span>
+		</div>
+
+	</main>
 </body>
 </html>

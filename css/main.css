@@ -1,0 +1,129 @@
+html {
+	font-family: Arial, Helvetica, sans-serif
+}
+
+nav {
+	background-color: #eee;
+	height: 43px;
+	font-size: 17px;
+	padding-left: 10px;
+	line-height: 43px;
+}
+
+main {
+	padding-left: 80px;
+	padding-top: 40px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color:red;
+}
+
+a {
+	color: purple;
+    text-decoration: none;
+}
+
+li {
+	display: inline;
+	padding-right: 15px;
+}
+
+.navtitle {
+	display: inline-block;
+}
+
+.navtitle:hover {
+    text-decoration: underline;
+}
+
+.navlinks {
+	display: inline-block;
+	position: absolute;
+	right: 0px;
+}
+
+.searchbox {
+	padding-top: 10px;
+	padding-bottom: 10px;
+    display: flex;
+}
+
+input[type="text"] {
+	font-size: 16px;
+    width: 390px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+}
+
+.mglass {
+	width: 29px;
+	height: 29px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+	margin-left: 5px;  
+    margin-right: 10px;
+}
+
+.prevnext {
+    display: flex;	
+    text-align: center;
+	margin-top: 15px;
+	margin-bottom: 50px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+  	max-width: 300px;
+    margin-right: 10px;
+}
+
+.prev, .page, .next {
+	flex: 1;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.prev {	
+   border-right: 1px solid #ddd;
+	flex: 0.4;
+}
+
+.next {
+   border-left: 1px solid #ddd;
+	flex: 0.4;
+}
+
+.prev:hover {	
+    text-decoration: underline;
+}
+
+.next:hover {	
+    text-decoration: underline;
+}
+
+.job {
+    display: flex;
+    margin-bottom: 18px;
+}
+
+.date {
+    margin-right: 10px;
+	flex-basis: 60px;
+	color: #999;
+}
+
+.jobtitle {
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.location {
+	color: #999;
+    margin-right: 10px;
+}
