@@ -2,15 +2,18 @@ html {
 	font-family: Arial, Helvetica, sans-serif
 }
 
+body {	
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
+}
+
 nav {
 	background-color: #eee;
 	height: 43px;
 	font-size: 17px;
 	padding-left: 10px;
 	line-height: 43px;
-	margin-left: 0px;
-	margin-right: 0px;
-	margin-top: 0px;
 }
 
 main {
