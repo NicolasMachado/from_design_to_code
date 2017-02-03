@@ -48,6 +48,7 @@ li {
 }
 
 .navlinks {
+	height: 43px;
 	display: inline-block;
 	position: absolute;
 	right: 0px;
