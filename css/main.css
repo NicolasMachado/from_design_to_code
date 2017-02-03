@@ -51,11 +51,11 @@ li {
 	height: 43px;
 	display: inline-block;
 	position: absolute;
-	right: 0px;
+	right: 10px;
 }
 
 .toplinks {
-	margin-right: 20px;
+	margin-right: 10px;
 }
 
 .searchbox {
